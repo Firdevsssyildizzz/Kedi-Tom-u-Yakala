@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001B209929CBB8EC003C9766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001B209829CBB8EC003C9766 /* AppDelegate.swift */; };
+		001B209B29CBB8EC003C9766 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001B209A29CBB8EC003C9766 /* SceneDelegate.swift */; };
+		001B209D29CBB8EC003C9766 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001B209C29CBB8EC003C9766 /* ViewController.swift */; };
+		001B20A029CBB8EC003C9766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001B209E29CBB8EC003C9766 /* Main.storyboard */; };
+		001B20A229CBB8EE003C9766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001B20A129CBB8EE003C9766 /* Assets.xcassets */; };
+		001B20A529CBB8EE003C9766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001B20A329CBB8EE003C9766 /* LaunchScreen.storyboard */; };
+		001B20B029CBB8EF003C9766 /* CatchTheTomGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001B20AF29CBB8EF003C9766 /* CatchTheTomGameTests.swift */; };
+		001B20BA29CBB8EF003C9766 /* CatchTheTomGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001B20B929CBB8EF003C9766 /* CatchTheTomGameUITests.swift */; };
+		001B20BC29CBB8EF003C9766 /* CatchTheTomGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001B20BB29CBB8EF003C9766 /* CatchTheTomGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		001B20AC29CBB8EF003C9766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001B208D29CBB8EC003C9766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 001B209429CBB8EC003C9766;
+			remoteInfo = CatchTheTomGame;
+		};
+		001B20B629CBB8EF003C9766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001B208D29CBB8EC003C9766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 001B209429CBB8EC003C9766;
+			remoteInfo = CatchTheTomGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001B209529CBB8EC003C9766 /* CatchTheTomGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheTomGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		001B209829CBB8EC003C9766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		001B209A29CBB8EC003C9766 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		001B209C29CBB8EC003C9766 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		001B209F29CBB8EC003C9766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		001B20A129CBB8EE003C9766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001B20A429CBB8EE003C9766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		001B20A629CBB8EE003C9766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		001B20AB29CBB8EF003C9766 /* CatchTheTomGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheTomGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		001B20AF29CBB8EF003C9766 /* CatchTheTomGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheTomGameTests.swift; sourceTree = "<group>"; };
+		001B20B529CBB8EF003C9766 /* CatchTheTomGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheTomGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		001B20B929CBB8EF003C9766 /* CatchTheTomGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheTomGameUITests.swift; sourceTree = "<group>"; };
+		001B20BB29CBB8EF003C9766 /* CatchTheTomGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheTomGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001B209229CBB8EC003C9766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001B20A829CBB8EF003C9766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001B20B229CBB8EF003C9766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001B208C29CBB8EC003C9766 = {
+			isa = PBXGroup;
+			children = (
+				001B209729CBB8EC003C9766 /* CatchTheTomGame */,
+				001B20AE29CBB8EF003C9766 /* CatchTheTomGameTests */,
+				001B20B829CBB8EF003C9766 /* CatchTheTomGameUITests */,
+				001B209629CBB8EC003C9766 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		001B209629CBB8EC003C9766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001B209529CBB8EC003C9766 /* CatchTheTomGame.app */,
+				001B20AB29CBB8EF003C9766 /* CatchTheTomGameTests.xctest */,
+				001B20B529CBB8EF003C9766 /* CatchTheTomGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001B209729CBB8EC003C9766 /* CatchTheTomGame */ = {
+			isa = PBXGroup;
+			children = (
+				001B209829CBB8EC003C9766 /* AppDelegate.swift */,
+				001B209A29CBB8EC003C9766 /* SceneDelegate.swift */,
+				001B209C29CBB8EC003C9766 /* ViewController.swift */,
+				001B209E29CBB8EC003C9766 /* Main.storyboard */,
+				001B20A129CBB8EE003C9766 /* Assets.xcassets */,
+				001B20A329CBB8EE003C9766 /* LaunchScreen.storyboard */,
+				001B20A629CBB8EE003C9766 /* Info.plist */,
+			);
+			path = CatchTheTomGame;
+			sourceTree = "<group>";
+		};
+		001B20AE29CBB8EF003C9766 /* CatchTheTomGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				001B20AF29CBB8EF003C9766 /* CatchTheTomGameTests.swift */,
+			);
+			path = CatchTheTomGameTests;
+			sourceTree = "<group>";
+		};
+		001B20B829CBB8EF003C9766 /* CatchTheTomGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				001B20B929CBB8EF003C9766 /* CatchTheTomGameUITests.swift */,
+				001B20BB29CBB8EF003C9766 /* CatchTheTomGameUITestsLaunchTests.swift */,
+			);
+			path = CatchTheTomGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001B209429CBB8EC003C9766 /* CatchTheTomGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001B20BF29CBB8EF003C9766 /* Build configuration list for PBXNativeTarget "CatchTheTomGame" */;
+			buildPhases = (
+				001B209129CBB8EC003C9766 /* Sources */,
+				001B209229CBB8EC003C9766 /* Frameworks */,
+				001B209329CBB8EC003C9766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatchTheTomGame;
+			productName = CatchTheTomGame;
+			productReference = 001B209529CBB8EC003C9766 /* CatchTheTomGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		001B20AA29CBB8EF003C9766 /* CatchTheTomGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001B20C229CBB8EF003C9766 /* Build configuration list for PBXNativeTarget "CatchTheTomGameTests" */;
+			buildPhases = (
+				001B20A729CBB8EF003C9766 /* Sources */,
+				001B20A829CBB8EF003C9766 /* Frameworks */,
+				001B20A929CBB8EF003C9766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				001B20AD29CBB8EF003C9766 /* PBXTargetDependency */,
+			);
+			name = CatchTheTomGameTests;
+			productName = CatchTheTomGameTests;
+			productReference = 001B20AB29CBB8EF003C9766 /* CatchTheTomGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		001B20B429CBB8EF003C9766 /* CatchTheTomGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001B20C529CBB8EF003C9766 /* Build configuration list for PBXNativeTarget "CatchTheTomGameUITests" */;
+			buildPhases = (
+				001B20B129CBB8EF003C9766 /* Sources */,
+				001B20B229CBB8EF003C9766 /* Frameworks */,
+				001B20B329CBB8EF003C9766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				001B20B729CBB8EF003C9766 /* PBXTargetDependency */,
+			);
+			name = CatchTheTomGameUITests;
+			productName = CatchTheTomGameUITests;
+			productReference = 001B20B529CBB8EF003C9766 /* CatchTheTomGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001B208D29CBB8EC003C9766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					001B209429CBB8EC003C9766 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					001B20AA29CBB8EF003C9766 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 001B209429CBB8EC003C9766;
+					};
+					001B20B429CBB8EF003C9766 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 001B209429CBB8EC003C9766;
+					};
+				};
+			};
+			buildConfigurationList = 001B209029CBB8EC003C9766 /* Build configuration list for PBXProject "CatchTheTomGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 001B208C29CBB8EC003C9766;
+			productRefGroup = 001B209629CBB8EC003C9766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001B209429CBB8EC003C9766 /* CatchTheTomGame */,
+				001B20AA29CBB8EF003C9766 /* CatchTheTomGameTests */,
+				001B20B429CBB8EF003C9766 /* CatchTheTomGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001B209329CBB8EC003C9766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001B20A529CBB8EE003C9766 /* LaunchScreen.storyboard in Resources */,
+				001B20A229CBB8EE003C9766 /* Assets.xcassets in Resources */,
+				001B20A029CBB8EC003C9766 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001B20A929CBB8EF003C9766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001B20B329CBB8EF003C9766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001B209129CBB8EC003C9766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001B209D29CBB8EC003C9766 /* ViewController.swift in Sources */,
+				001B209929CBB8EC003C9766 /* AppDelegate.swift in Sources */,
+				001B209B29CBB8EC003C9766 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001B20A729CBB8EF003C9766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001B20B029CBB8EF003C9766 /* CatchTheTomGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001B20B129CBB8EF003C9766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001B20BA29CBB8EF003C9766 /* CatchTheTomGameUITests.swift in Sources */,
+				001B20BC29CBB8EF003C9766 /* CatchTheTomGameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		001B20AD29CBB8EF003C9766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 001B209429CBB8EC003C9766 /* CatchTheTomGame */;
+			targetProxy = 001B20AC29CBB8EF003C9766 /* PBXContainerItemProxy */;
+		};
+		001B20B729CBB8EF003C9766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 001B209429CBB8EC003C9766 /* CatchTheTomGame */;
+			targetProxy = 001B20B629CBB8EF003C9766 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		001B209E29CBB8EC003C9766 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001B209F29CBB8EC003C9766 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		001B20A329CBB8EE003C9766 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001B20A429CBB8EE003C9766 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		001B20BD29CBB8EF003C9766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		001B20BE29CBB8EF003C9766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		001B20C029CBB8EF003C9766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchTheTomGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atilla.CatchTheTomGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		001B20C129CBB8EF003C9766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchTheTomGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atilla.CatchTheTomGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		001B20C329CBB8EF003C9766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atilla.CatchTheTomGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheTomGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatchTheTomGame";
+			};
+			name = Debug;
+		};
+		001B20C429CBB8EF003C9766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atilla.CatchTheTomGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheTomGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatchTheTomGame";
+			};
+			name = Release;
+		};
+		001B20C629CBB8EF003C9766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atilla.CatchTheTomGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatchTheTomGame;
+			};
+			name = Debug;
+		};
+		001B20C729CBB8EF003C9766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atilla.CatchTheTomGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatchTheTomGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001B209029CBB8EC003C9766 /* Build configuration list for PBXProject "CatchTheTomGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001B20BD29CBB8EF003C9766 /* Debug */,
+				001B20BE29CBB8EF003C9766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001B20BF29CBB8EF003C9766 /* Build configuration list for PBXNativeTarget "CatchTheTomGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001B20C029CBB8EF003C9766 /* Debug */,
+				001B20C129CBB8EF003C9766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001B20C229CBB8EF003C9766 /* Build configuration list for PBXNativeTarget "CatchTheTomGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001B20C329CBB8EF003C9766 /* Debug */,
+				001B20C429CBB8EF003C9766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001B20C529CBB8EF003C9766 /* Build configuration list for PBXNativeTarget "CatchTheTomGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001B20C629CBB8EF003C9766 /* Debug */,
+				001B20C729CBB8EF003C9766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001B208D29CBB8EC003C9766 /* Project object */;
+}
